@@ -1,0 +1,17 @@
+html{
+    font-size: 22px;
+}
+table,td,tr,th,caption{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-collapse: seperate;
+
+}
+body{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1rem;
+    
+
+
+}

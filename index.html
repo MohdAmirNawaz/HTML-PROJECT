@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="author" content="Mohd Amir Nawaz">
         <meta name="description" content="the little tacos shop">
+        <link rel="stylesheet" href="style.css">
         <title>THE LITTLE TACOS SHOP</title>
     </head>
     <body>
@@ -12,7 +13,7 @@
         <nav>
         <ul>
             <li><a href="#About LTS">About LTS</a></li>
-            <li><a href="">Our Menu</a></li>
+            <li><a href="#menu">Our Menu</a></li>
             <li><a href="">Store House</a></li>
             <li><a href="">Contact Us</a></li>
         </ul>
@@ -40,20 +41,60 @@
     </aside>
 </article>
     <hr>
+    <article id="menu">
     <h2>
         Our Menu
     </h2>
     <table>
         <caption>Our Tacos</caption>
         <thead>
-        <tr><th>TACOS</th></tr>
+        <tr><th>TACOS</th>
+        <th scope="col"><abbr title="Quantity">QTY</abbr></th>
         
-           TACOS 
+        <th scope="col">Price</th>
+        </tr>
         </thead>  
-        
-    </tr>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">Cruncy</th>
+                <td>1</td>
+                <td>$1.50</td>
+                  
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$3.25</td>
+            </tr>
+            <tr>
+                <th scope="row" rowspan="3">Soft</th>
+                <td>1</td>
+                <td>$2.00</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$3.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$4.50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> <td colspan="3">Chips and Salsa $2</td>
+        </tfoot>
+    
         
     </table>
+</article>
+    <br>
+    <p><a href="#">Back to Top</a></p>
+    <hr>
+    <footer><p>Copyright &copy; The Little Taco Shop</p></footer>
 
 
     </main>
